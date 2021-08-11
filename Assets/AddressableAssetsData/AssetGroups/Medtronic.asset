@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Medtronic
+  m_EditorClassIdentifier: 
+  m_GroupName: Medtronic
+  m_Data:
+    m_SerializedData: []
+  m_GUID: d9884a95282e06649bdda076e4e8a697
+  m_SerializeEntries:
+  - m_GUID: afbef0951d9381d43b74f34d4e3cc994
+    m_Address: Assets/Scenes/Medtronic/Scenes/Medtronic.unity
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 102900000, guid: afbef0951d9381d43b74f34d4e3cc994, type: 3}
+    m_TargetAsset: {fileID: 102900000, guid: afbef0951d9381d43b74f34d4e3cc994, type: 3}
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: a98b14cec1a6ce5418136327606f1332, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: a34b14231248a4a49b545a6d308fddc6, type: 2}
+    - {fileID: 11400000, guid: 84602979e2637434781cc7fa825d9286, type: 2}
