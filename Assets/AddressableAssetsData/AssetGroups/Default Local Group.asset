@@ -18,7 +18,7 @@ MonoBehaviour:
   m_GUID: 42f780eb210558f4897bda101df4171e
   m_SerializeEntries:
   - m_GUID: 32607d0d5e30af446b4e999ca4764b15
-    m_Address: Assets/Scenes/Classroom.unity
+    m_Address: Assets/Scenes/Classroom/Classroom.unity
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}

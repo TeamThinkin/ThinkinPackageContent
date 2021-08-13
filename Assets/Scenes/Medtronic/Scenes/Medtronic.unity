@@ -229,7 +229,6 @@ GameObject:
   m_Component:
   - component: {fileID: 36021111}
   - component: {fileID: 36021112}
-  - component: {fileID: 36021113}
   m_Layer: 0
   m_Name: Area Light Celing Main 2
   m_TagString: Untagged
@@ -313,30 +312,6 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
---- !u!114 &36021113
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 36021110}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a28e27cacfc7e70479097f0a63c37217, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  UID: 1801282489
-  color: {r: 1, g: 1, b: 1, a: 1}
-  intensity: 50
-  texture: {fileID: 0}
-  cutoff: 8.926871
-  samples: 256
-  samples2: 0
-  bitmask: 1
-  selfShadow: 0
-  bakeToIndirect: 1
-  indirectIntensity: 2
-  lmid: -2
 --- !u!1 &121545757
 GameObject:
   m_ObjectHideFlags: 0
@@ -347,7 +322,6 @@ GameObject:
   m_Component:
   - component: {fileID: 121545758}
   - component: {fileID: 121545760}
-  - component: {fileID: 121545759}
   m_Layer: 0
   m_Name: Area Light Corridor 3
   m_TagString: Untagged
@@ -369,30 +343,6 @@ Transform:
   m_Father: {fileID: 494962178}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
---- !u!114 &121545759
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 121545757}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a28e27cacfc7e70479097f0a63c37217, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  UID: 1643875474
-  color: {r: 1, g: 1, b: 1, a: 1}
-  intensity: 9
-  texture: {fileID: 0}
-  cutoff: 9.0673275
-  samples: 256
-  samples2: 0
-  bitmask: 1
-  selfShadow: 0
-  bakeToIndirect: 1
-  indirectIntensity: 1
-  lmid: -2
 --- !u!108 &121545760
 Light:
   m_ObjectHideFlags: 0
@@ -1162,7 +1112,6 @@ GameObject:
   m_Component:
   - component: {fileID: 217737161}
   - component: {fileID: 217737163}
-  - component: {fileID: 217737162}
   m_Layer: 0
   m_Name: Area Light Cabinet R
   m_TagString: Untagged
@@ -1184,30 +1133,6 @@ Transform:
   m_Father: {fileID: 2115055469}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 84.239006, y: 0, z: 0}
---- !u!114 &217737162
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 217737160}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a28e27cacfc7e70479097f0a63c37217, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  UID: 1687587325
-  color: {r: 0.8196079, g: 0.9803922, b: 0.98823535, a: 1}
-  intensity: 26
-  texture: {fileID: 0}
-  cutoff: 4.698573
-  samples: 256
-  samples2: 0
-  bitmask: 1
-  selfShadow: 0
-  bakeToIndirect: 1
-  indirectIntensity: 2
-  lmid: -2
 --- !u!108 &217737163
 Light:
   m_ObjectHideFlags: 0
@@ -1318,7 +1243,6 @@ GameObject:
   m_Component:
   - component: {fileID: 244428730}
   - component: {fileID: 244428732}
-  - component: {fileID: 244428731}
   m_Layer: 0
   m_Name: Area Lights Center Circle 9
   m_TagString: Untagged
@@ -1340,30 +1264,6 @@ Transform:
   m_Father: {fileID: 456053577}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
---- !u!114 &244428731
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 244428729}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a28e27cacfc7e70479097f0a63c37217, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  UID: 1943044324
-  color: {r: 1, g: 1, b: 1, a: 1}
-  intensity: 5
-  texture: {fileID: 0}
-  cutoff: 5.3118715
-  samples: 256
-  samples2: 0
-  bitmask: 1
-  selfShadow: 0
-  bakeToIndirect: 1
-  indirectIntensity: 2
-  lmid: -2
 --- !u!108 &244428732
 Light:
   m_ObjectHideFlags: 0
@@ -1564,7 +1464,6 @@ GameObject:
   m_Component:
   - component: {fileID: 311272216}
   - component: {fileID: 311272218}
-  - component: {fileID: 311272217}
   m_Layer: 0
   m_Name: Area Light Corridor 6
   m_TagString: Untagged
@@ -1586,30 +1485,6 @@ Transform:
   m_Father: {fileID: 1197388272}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
---- !u!114 &311272217
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 311272215}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a28e27cacfc7e70479097f0a63c37217, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  UID: 503262188
-  color: {r: 1, g: 1, b: 1, a: 1}
-  intensity: 22
-  texture: {fileID: 0}
-  cutoff: 9.245742
-  samples: 256
-  samples2: 0
-  bitmask: 1
-  selfShadow: 0
-  bakeToIndirect: 1
-  indirectIntensity: 1
-  lmid: -2
 --- !u!108 &311272218
 Light:
   m_ObjectHideFlags: 0
@@ -1672,45 +1547,6 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
---- !u!114 &355224659
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec0b4dd729a12d046982652f834580a2, type: 3}
-  m_Name: Main_LM0
-  m_EditorClassIdentifier: 
-  resolution: 4096
-  bitmask: 1
-  id: 0
-  sortingID: 1
-  isImplicit: 1
-  area: 2939.2441
-  totalVertexCount: 0
-  vertexCounter: 0
-  sceneLodLevel: -1
-  sceneName: 
-  containsTerrains: 0
-  probes: 0
-  mode: 1
-  renderMode: 1000
-  renderDirMode: 1000
-  atlasPacker: 1000
-  computeSSS: 0
-  sssSamples: 16
-  sssDensity: 10
-  sssColor: {r: 1, g: 1, b: 1, a: 1}
-  fakeShadowBias: 0
-  transparentSelfShadow: 0
-  flipNormal: 0
-  parentName: 
-  overridePath: 
-  fixPos3D: 0
-  voxelSize: {x: 1, y: 1, z: 1}
 --- !u!1 &394005819
 GameObject:
   m_ObjectHideFlags: 0
@@ -1721,7 +1557,6 @@ GameObject:
   m_Component:
   - component: {fileID: 394005820}
   - component: {fileID: 394005822}
-  - component: {fileID: 394005821}
   m_Layer: 0
   m_Name: Area Light Cabinet L
   m_TagString: Untagged
@@ -1743,30 +1578,6 @@ Transform:
   m_Father: {fileID: 2115055469}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 84.239006, y: 0, z: 0}
---- !u!114 &394005821
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 394005819}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a28e27cacfc7e70479097f0a63c37217, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  UID: -586835226
-  color: {r: 0.8196079, g: 0.9803922, b: 0.98823535, a: 1}
-  intensity: 26
-  texture: {fileID: 0}
-  cutoff: 4.698573
-  samples: 256
-  samples2: 0
-  bitmask: 1
-  selfShadow: 0
-  bakeToIndirect: 1
-  indirectIntensity: 2
-  lmid: -2
 --- !u!108 &394005822
 Light:
   m_ObjectHideFlags: 0
@@ -1839,7 +1650,6 @@ GameObject:
   m_Component:
   - component: {fileID: 454511319}
   - component: {fileID: 454511321}
-  - component: {fileID: 454511320}
   m_Layer: 0
   m_Name: Area Light Corridor 12
   m_TagString: Untagged
@@ -1861,30 +1671,6 @@ Transform:
   m_Father: {fileID: 1197388272}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
---- !u!114 &454511320
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 454511318}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a28e27cacfc7e70479097f0a63c37217, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  UID: 525510020
-  color: {r: 1, g: 1, b: 1, a: 1}
-  intensity: 22
-  texture: {fileID: 0}
-  cutoff: 9.245742
-  samples: 256
-  samples2: 0
-  bitmask: 1
-  selfShadow: 0
-  bakeToIndirect: 1
-  indirectIntensity: 1
-  lmid: -2
 --- !u!108 &454511321
 Light:
   m_ObjectHideFlags: 0
@@ -1999,7 +1785,6 @@ GameObject:
   m_Component:
   - component: {fileID: 464680697}
   - component: {fileID: 464680699}
-  - component: {fileID: 464680698}
   m_Layer: 0
   m_Name: Area Light Corridor 11
   m_TagString: Untagged
@@ -2021,30 +1806,6 @@ Transform:
   m_Father: {fileID: 1197388272}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
---- !u!114 &464680698
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 464680696}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a28e27cacfc7e70479097f0a63c37217, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  UID: -119524315
-  color: {r: 1, g: 1, b: 1, a: 1}
-  intensity: 22
-  texture: {fileID: 0}
-  cutoff: 9.245742
-  samples: 256
-  samples2: 0
-  bitmask: 1
-  selfShadow: 0
-  bakeToIndirect: 1
-  indirectIntensity: 1
-  lmid: -2
 --- !u!108 &464680699
 Light:
   m_ObjectHideFlags: 0
@@ -2285,7 +2046,6 @@ GameObject:
   m_Component:
   - component: {fileID: 572256567}
   - component: {fileID: 572256569}
-  - component: {fileID: 572256568}
   m_Layer: 0
   m_Name: Area Lights Center Circle 11
   m_TagString: Untagged
@@ -2307,30 +2067,6 @@ Transform:
   m_Father: {fileID: 456053577}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
---- !u!114 &572256568
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 572256566}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a28e27cacfc7e70479097f0a63c37217, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  UID: 1886902857
-  color: {r: 1, g: 1, b: 1, a: 1}
-  intensity: 5
-  texture: {fileID: 0}
-  cutoff: 5.3118715
-  samples: 256
-  samples2: 0
-  bitmask: 1
-  selfShadow: 0
-  bakeToIndirect: 1
-  indirectIntensity: 2
-  lmid: -2
 --- !u!108 &572256569
 Light:
   m_ObjectHideFlags: 0
@@ -2499,7 +2235,6 @@ GameObject:
   m_Component:
   - component: {fileID: 614358222}
   - component: {fileID: 614358223}
-  - component: {fileID: 614358224}
   m_Layer: 0
   m_Name: Area Light Celing Main 7
   m_TagString: Untagged
@@ -2583,30 +2318,6 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
---- !u!114 &614358224
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 614358221}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a28e27cacfc7e70479097f0a63c37217, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  UID: -1955216540
-  color: {r: 1, g: 1, b: 1, a: 1}
-  intensity: 14
-  texture: {fileID: 0}
-  cutoff: 8.926871
-  samples: 256
-  samples2: 0
-  bitmask: 1
-  selfShadow: 0
-  bakeToIndirect: 1
-  indirectIntensity: 1
-  lmid: -2
 --- !u!1 &625265334
 GameObject:
   m_ObjectHideFlags: 0
@@ -2617,7 +2328,6 @@ GameObject:
   m_Component:
   - component: {fileID: 625265335}
   - component: {fileID: 625265337}
-  - component: {fileID: 625265336}
   m_Layer: 0
   m_Name: Area Light Corridor 7
   m_TagString: Untagged
@@ -2639,30 +2349,6 @@ Transform:
   m_Father: {fileID: 1197388272}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
---- !u!114 &625265336
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 625265334}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a28e27cacfc7e70479097f0a63c37217, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  UID: -1292639535
-  color: {r: 1, g: 1, b: 1, a: 1}
-  intensity: 22
-  texture: {fileID: 0}
-  cutoff: 9.245742
-  samples: 256
-  samples2: 0
-  bitmask: 1
-  selfShadow: 0
-  bakeToIndirect: 1
-  indirectIntensity: 1
-  lmid: -2
 --- !u!108 &625265337
 Light:
   m_ObjectHideFlags: 0
@@ -2735,7 +2421,6 @@ GameObject:
   m_Component:
   - component: {fileID: 650364713}
   - component: {fileID: 650364714}
-  - component: {fileID: 650364715}
   m_Layer: 0
   m_Name: Area Light Celing Main 1
   m_TagString: Untagged
@@ -2819,30 +2504,6 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
---- !u!114 &650364715
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 650364712}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a28e27cacfc7e70479097f0a63c37217, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  UID: 44345404
-  color: {r: 1, g: 1, b: 1, a: 1}
-  intensity: 50
-  texture: {fileID: 0}
-  cutoff: 8.926871
-  samples: 256
-  samples2: 0
-  bitmask: 1
-  selfShadow: 0
-  bakeToIndirect: 1
-  indirectIntensity: 2
-  lmid: -2
 --- !u!1 &715223252
 GameObject:
   m_ObjectHideFlags: 0
@@ -2853,7 +2514,6 @@ GameObject:
   m_Component:
   - component: {fileID: 715223253}
   - component: {fileID: 715223255}
-  - component: {fileID: 715223254}
   m_Layer: 0
   m_Name: Area Light Corridor 2
   m_TagString: Untagged
@@ -2875,30 +2535,6 @@ Transform:
   m_Father: {fileID: 494962178}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
---- !u!114 &715223254
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 715223252}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a28e27cacfc7e70479097f0a63c37217, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  UID: -1871973648
-  color: {r: 1, g: 1, b: 1, a: 1}
-  intensity: 9
-  texture: {fileID: 0}
-  cutoff: 9.0673275
-  samples: 256
-  samples2: 0
-  bitmask: 1
-  selfShadow: 0
-  bakeToIndirect: 1
-  indirectIntensity: 1
-  lmid: -2
 --- !u!108 &715223255
 Light:
   m_ObjectHideFlags: 0
@@ -2971,7 +2607,6 @@ GameObject:
   m_Component:
   - component: {fileID: 743799879}
   - component: {fileID: 743799881}
-  - component: {fileID: 743799880}
   m_Layer: 0
   m_Name: Area Lights Center Circle 6
   m_TagString: Untagged
@@ -2993,30 +2628,6 @@ Transform:
   m_Father: {fileID: 456053577}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
---- !u!114 &743799880
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 743799878}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a28e27cacfc7e70479097f0a63c37217, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  UID: -241037944
-  color: {r: 1, g: 1, b: 1, a: 1}
-  intensity: 5
-  texture: {fileID: 0}
-  cutoff: 5.3118715
-  samples: 256
-  samples2: 0
-  bitmask: 1
-  selfShadow: 0
-  bakeToIndirect: 1
-  indirectIntensity: 2
-  lmid: -2
 --- !u!108 &743799881
 Light:
   m_ObjectHideFlags: 0
@@ -3079,45 +2690,6 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
---- !u!114 &744857220
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec0b4dd729a12d046982652f834580a2, type: 3}
-  m_Name: probes
-  m_EditorClassIdentifier: 
-  resolution: 4096
-  bitmask: 1
-  id: 5
-  sortingID: 0
-  isImplicit: 1
-  area: 0
-  totalVertexCount: 320
-  vertexCounter: 0
-  sceneLodLevel: -1
-  sceneName: 
-  containsTerrains: 0
-  probes: 1
-  mode: 2
-  renderMode: 1000
-  renderDirMode: 5
-  atlasPacker: 1000
-  computeSSS: 0
-  sssSamples: 16
-  sssDensity: 10
-  sssColor: {r: 1, g: 1, b: 1, a: 1}
-  fakeShadowBias: 0
-  transparentSelfShadow: 0
-  flipNormal: 0
-  parentName: 
-  overridePath: 
-  fixPos3D: 0
-  voxelSize: {x: 1, y: 1, z: 1}
 --- !u!1 &749424933
 GameObject:
   m_ObjectHideFlags: 0
@@ -3265,7 +2837,6 @@ GameObject:
   m_Component:
   - component: {fileID: 872846384}
   - component: {fileID: 872846385}
-  - component: {fileID: 872846386}
   m_Layer: 0
   m_Name: Area Light Celing Main 6
   m_TagString: Untagged
@@ -3349,30 +2920,6 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
---- !u!114 &872846386
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 872846383}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a28e27cacfc7e70479097f0a63c37217, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  UID: -829688418
-  color: {r: 1, g: 1, b: 1, a: 1}
-  intensity: 50
-  texture: {fileID: 0}
-  cutoff: 8.926871
-  samples: 256
-  samples2: 0
-  bitmask: 1
-  selfShadow: 0
-  bakeToIndirect: 1
-  indirectIntensity: 2
-  lmid: -2
 --- !u!1 &883932584
 GameObject:
   m_ObjectHideFlags: 0
@@ -3547,7 +3094,6 @@ GameObject:
   m_Component:
   - component: {fileID: 920624621}
   - component: {fileID: 920624623}
-  - component: {fileID: 920624622}
   m_Layer: 0
   m_Name: Area Lights Center Circle 1
   m_TagString: Untagged
@@ -3569,30 +3115,6 @@ Transform:
   m_Father: {fileID: 456053577}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
---- !u!114 &920624622
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 920624620}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a28e27cacfc7e70479097f0a63c37217, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  UID: -1075671743
-  color: {r: 1, g: 1, b: 1, a: 1}
-  intensity: 5
-  texture: {fileID: 0}
-  cutoff: 5.3118715
-  samples: 256
-  samples2: 0
-  bitmask: 1
-  selfShadow: 0
-  bakeToIndirect: 1
-  indirectIntensity: 2
-  lmid: -2
 --- !u!108 &920624623
 Light:
   m_ObjectHideFlags: 0
@@ -3665,7 +3187,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1039164317}
   - component: {fileID: 1039164319}
-  - component: {fileID: 1039164318}
   m_Layer: 0
   m_Name: Area Lights Center Circle 4
   m_TagString: Untagged
@@ -3687,30 +3208,6 @@ Transform:
   m_Father: {fileID: 456053577}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
---- !u!114 &1039164318
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1039164316}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a28e27cacfc7e70479097f0a63c37217, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  UID: -761943453
-  color: {r: 1, g: 1, b: 1, a: 1}
-  intensity: 5
-  texture: {fileID: 0}
-  cutoff: 5.3118715
-  samples: 256
-  samples2: 0
-  bitmask: 1
-  selfShadow: 0
-  bakeToIndirect: 1
-  indirectIntensity: 2
-  lmid: -2
 --- !u!108 &1039164319
 Light:
   m_ObjectHideFlags: 0
@@ -3869,45 +3366,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1073973547}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &1074301007
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec0b4dd729a12d046982652f834580a2, type: 3}
-  m_Name: Main_LMA2
-  m_EditorClassIdentifier: 
-  resolution: 4096
-  bitmask: 1
-  id: 2
-  sortingID: 3
-  isImplicit: 1
-  area: 0
-  totalVertexCount: 0
-  vertexCounter: 0
-  sceneLodLevel: -1
-  sceneName: 
-  containsTerrains: 0
-  probes: 0
-  mode: 1
-  renderMode: 1000
-  renderDirMode: 1000
-  atlasPacker: 1000
-  computeSSS: 0
-  sssSamples: 16
-  sssDensity: 10
-  sssColor: {r: 1, g: 1, b: 1, a: 1}
-  fakeShadowBias: 0
-  transparentSelfShadow: 0
-  flipNormal: 0
-  parentName: 
-  overridePath: 
-  fixPos3D: 0
-  voxelSize: {x: 1, y: 1, z: 1}
 --- !u!1 &1075771602
 GameObject:
   m_ObjectHideFlags: 0
@@ -3918,7 +3376,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1075771603}
   - component: {fileID: 1075771605}
-  - component: {fileID: 1075771604}
   m_Layer: 0
   m_Name: Area Lights Center Circle 12
   m_TagString: Untagged
@@ -3940,30 +3397,6 @@ Transform:
   m_Father: {fileID: 456053577}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
---- !u!114 &1075771604
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1075771602}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a28e27cacfc7e70479097f0a63c37217, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  UID: -1673825685
-  color: {r: 1, g: 1, b: 1, a: 1}
-  intensity: 5
-  texture: {fileID: 0}
-  cutoff: 5.3118715
-  samples: 256
-  samples2: 0
-  bitmask: 1
-  selfShadow: 0
-  bakeToIndirect: 1
-  indirectIntensity: 2
-  lmid: -2
 --- !u!108 &1075771605
 Light:
   m_ObjectHideFlags: 0
@@ -4036,7 +3469,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1079669629}
   - component: {fileID: 1079669631}
-  - component: {fileID: 1079669630}
   m_Layer: 0
   m_Name: Area Light Corridor 8
   m_TagString: Untagged
@@ -4058,30 +3490,6 @@ Transform:
   m_Father: {fileID: 1197388272}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
---- !u!114 &1079669630
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1079669628}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a28e27cacfc7e70479097f0a63c37217, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  UID: -255121690
-  color: {r: 1, g: 1, b: 1, a: 1}
-  intensity: 22
-  texture: {fileID: 0}
-  cutoff: 9.245742
-  samples: 256
-  samples2: 0
-  bitmask: 1
-  selfShadow: 0
-  bakeToIndirect: 1
-  indirectIntensity: 1
-  lmid: -2
 --- !u!108 &1079669631
 Light:
   m_ObjectHideFlags: 0
@@ -4154,7 +3562,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1084996854}
   - component: {fileID: 1084996856}
-  - component: {fileID: 1084996855}
   m_Layer: 0
   m_Name: Area Light Corridor 8
   m_TagString: Untagged
@@ -4176,30 +3583,6 @@ Transform:
   m_Father: {fileID: 494962178}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 90.00001, y: 90, z: -90.00001}
---- !u!114 &1084996855
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1084996853}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a28e27cacfc7e70479097f0a63c37217, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  UID: 1312702081
-  color: {r: 1, g: 1, b: 1, a: 1}
-  intensity: 9
-  texture: {fileID: 0}
-  cutoff: 9.115759
-  samples: 256
-  samples2: 0
-  bitmask: 1
-  selfShadow: 0
-  bakeToIndirect: 1
-  indirectIntensity: 1
-  lmid: -2
 --- !u!108 &1084996856
 Light:
   m_ObjectHideFlags: 0
@@ -4367,7 +3750,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1145635477}
   - component: {fileID: 1145635479}
-  - component: {fileID: 1145635478}
   m_Layer: 0
   m_Name: Area Light Corridor 5
   m_TagString: Untagged
@@ -4389,30 +3771,6 @@ Transform:
   m_Father: {fileID: 1197388272}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
---- !u!114 &1145635478
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1145635476}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a28e27cacfc7e70479097f0a63c37217, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  UID: 1675071988
-  color: {r: 1, g: 1, b: 1, a: 1}
-  intensity: 22
-  texture: {fileID: 0}
-  cutoff: 9.245742
-  samples: 256
-  samples2: 0
-  bitmask: 1
-  selfShadow: 0
-  bakeToIndirect: 1
-  indirectIntensity: 1
-  lmid: -2
 --- !u!108 &1145635479
 Light:
   m_ObjectHideFlags: 0
@@ -4485,7 +3843,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1153619687}
   - component: {fileID: 1153619689}
-  - component: {fileID: 1153619688}
   m_Layer: 0
   m_Name: Area Lights Center Circle 8
   m_TagString: Untagged
@@ -4507,30 +3864,6 @@ Transform:
   m_Father: {fileID: 456053577}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
---- !u!114 &1153619688
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1153619686}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a28e27cacfc7e70479097f0a63c37217, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  UID: -1430941117
-  color: {r: 1, g: 1, b: 1, a: 1}
-  intensity: 5
-  texture: {fileID: 0}
-  cutoff: 5.3118715
-  samples: 256
-  samples2: 0
-  bitmask: 1
-  selfShadow: 0
-  bakeToIndirect: 1
-  indirectIntensity: 2
-  lmid: -2
 --- !u!108 &1153619689
 Light:
   m_ObjectHideFlags: 0
@@ -4603,7 +3936,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1156037531}
   - component: {fileID: 1156037533}
-  - component: {fileID: 1156037532}
   m_Layer: 0
   m_Name: Area Lights Center Circle 10
   m_TagString: Untagged
@@ -4625,30 +3957,6 @@ Transform:
   m_Father: {fileID: 456053577}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
---- !u!114 &1156037532
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1156037530}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a28e27cacfc7e70479097f0a63c37217, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  UID: -918778575
-  color: {r: 1, g: 1, b: 1, a: 1}
-  intensity: 5
-  texture: {fileID: 0}
-  cutoff: 5.3118715
-  samples: 256
-  samples2: 0
-  bitmask: 1
-  selfShadow: 0
-  bakeToIndirect: 1
-  indirectIntensity: 2
-  lmid: -2
 --- !u!108 &1156037533
 Light:
   m_ObjectHideFlags: 0
@@ -4721,7 +4029,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1166814056}
   - component: {fileID: 1166814058}
-  - component: {fileID: 1166814057}
   m_Layer: 0
   m_Name: Area Light Corridor 4
   m_TagString: Untagged
@@ -4743,30 +4050,6 @@ Transform:
   m_Father: {fileID: 1197388272}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
---- !u!114 &1166814057
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1166814055}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a28e27cacfc7e70479097f0a63c37217, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  UID: -1287758161
-  color: {r: 1, g: 1, b: 1, a: 1}
-  intensity: 22
-  texture: {fileID: 0}
-  cutoff: 9.245742
-  samples: 256
-  samples2: 0
-  bitmask: 1
-  selfShadow: 0
-  bakeToIndirect: 1
-  indirectIntensity: 1
-  lmid: -2
 --- !u!108 &1166814058
 Light:
   m_ObjectHideFlags: 0
@@ -4881,7 +4164,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1204215023}
   - component: {fileID: 1204215025}
-  - component: {fileID: 1204215024}
   m_Layer: 0
   m_Name: Area Lights Center Circle 7
   m_TagString: Untagged
@@ -4903,30 +4185,6 @@ Transform:
   m_Father: {fileID: 456053577}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
---- !u!114 &1204215024
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1204215022}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a28e27cacfc7e70479097f0a63c37217, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  UID: -1100283291
-  color: {r: 1, g: 1, b: 1, a: 1}
-  intensity: 5
-  texture: {fileID: 0}
-  cutoff: 5.3118715
-  samples: 256
-  samples2: 0
-  bitmask: 1
-  selfShadow: 0
-  bakeToIndirect: 1
-  indirectIntensity: 2
-  lmid: -2
 --- !u!108 &1204215025
 Light:
   m_ObjectHideFlags: 0
@@ -4999,7 +4257,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1209884959}
   - component: {fileID: 1209884961}
-  - component: {fileID: 1209884960}
   m_Layer: 0
   m_Name: Area Lights Center Circle 3
   m_TagString: Untagged
@@ -5021,30 +4278,6 @@ Transform:
   m_Father: {fileID: 456053577}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
---- !u!114 &1209884960
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1209884958}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a28e27cacfc7e70479097f0a63c37217, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  UID: -503992595
-  color: {r: 1, g: 1, b: 1, a: 1}
-  intensity: 5
-  texture: {fileID: 0}
-  cutoff: 5.3118715
-  samples: 256
-  samples2: 0
-  bitmask: 1
-  selfShadow: 0
-  bakeToIndirect: 1
-  indirectIntensity: 2
-  lmid: -2
 --- !u!108 &1209884961
 Light:
   m_ObjectHideFlags: 0
@@ -5213,7 +4446,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1213159665}
   - component: {fileID: 1213159667}
-  - component: {fileID: 1213159666}
   m_Layer: 0
   m_Name: Area Lights Center Circle 2
   m_TagString: Untagged
@@ -5235,30 +4467,6 @@ Transform:
   m_Father: {fileID: 456053577}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
---- !u!114 &1213159666
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1213159664}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a28e27cacfc7e70479097f0a63c37217, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  UID: -1176789806
-  color: {r: 1, g: 1, b: 1, a: 1}
-  intensity: 5
-  texture: {fileID: 0}
-  cutoff: 5.3118715
-  samples: 256
-  samples2: 0
-  bitmask: 1
-  selfShadow: 0
-  bakeToIndirect: 1
-  indirectIntensity: 2
-  lmid: -2
 --- !u!108 &1213159667
 Light:
   m_ObjectHideFlags: 0
@@ -5460,7 +4668,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1277742996}
   - component: {fileID: 1277742998}
-  - component: {fileID: 1277742997}
   m_Layer: 0
   m_Name: Area Light Corridor 4
   m_TagString: Untagged
@@ -5482,30 +4689,6 @@ Transform:
   m_Father: {fileID: 494962178}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
---- !u!114 &1277742997
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1277742995}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a28e27cacfc7e70479097f0a63c37217, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  UID: 1123776211
-  color: {r: 1, g: 1, b: 1, a: 1}
-  intensity: 9
-  texture: {fileID: 0}
-  cutoff: 9.0673275
-  samples: 256
-  samples2: 0
-  bitmask: 1
-  selfShadow: 0
-  bakeToIndirect: 1
-  indirectIntensity: 1
-  lmid: -2
 --- !u!108 &1277742998
 Light:
   m_ObjectHideFlags: 0
@@ -5568,45 +4751,6 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
---- !u!114 &1284496499
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec0b4dd729a12d046982652f834580a2, type: 3}
-  m_Name: Main_LMA4
-  m_EditorClassIdentifier: 
-  resolution: 4096
-  bitmask: 1
-  id: 4
-  sortingID: 5
-  isImplicit: 1
-  area: 0
-  totalVertexCount: 0
-  vertexCounter: 0
-  sceneLodLevel: -1
-  sceneName: 
-  containsTerrains: 0
-  probes: 0
-  mode: 1
-  renderMode: 1000
-  renderDirMode: 1000
-  atlasPacker: 1000
-  computeSSS: 0
-  sssSamples: 16
-  sssDensity: 10
-  sssColor: {r: 1, g: 1, b: 1, a: 1}
-  fakeShadowBias: 0
-  transparentSelfShadow: 0
-  flipNormal: 0
-  parentName: 
-  overridePath: 
-  fixPos3D: 0
-  voxelSize: {x: 1, y: 1, z: 1}
 --- !u!1 &1320481405
 GameObject:
   m_ObjectHideFlags: 0
@@ -5906,7 +5050,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1407177502}
   - component: {fileID: 1407177504}
-  - component: {fileID: 1407177503}
   m_Layer: 0
   m_Name: Area Lights Center Circle 5
   m_TagString: Untagged
@@ -5928,30 +5071,6 @@ Transform:
   m_Father: {fileID: 456053577}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
---- !u!114 &1407177503
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1407177501}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a28e27cacfc7e70479097f0a63c37217, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  UID: -168431632
-  color: {r: 1, g: 1, b: 1, a: 1}
-  intensity: 5
-  texture: {fileID: 0}
-  cutoff: 5.3118715
-  samples: 256
-  samples2: 0
-  bitmask: 1
-  selfShadow: 0
-  bakeToIndirect: 1
-  indirectIntensity: 2
-  lmid: -2
 --- !u!108 &1407177504
 Light:
   m_ObjectHideFlags: 0
@@ -6024,7 +5143,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1427597315}
   - component: {fileID: 1427597317}
-  - component: {fileID: 1427597316}
   m_Layer: 0
   m_Name: Area Light Corridor 3
   m_TagString: Untagged
@@ -6046,30 +5164,6 @@ Transform:
   m_Father: {fileID: 1197388272}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
---- !u!114 &1427597316
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1427597314}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a28e27cacfc7e70479097f0a63c37217, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  UID: 1750211030
-  color: {r: 1, g: 1, b: 1, a: 1}
-  intensity: 22
-  texture: {fileID: 0}
-  cutoff: 9.245742
-  samples: 256
-  samples2: 0
-  bitmask: 1
-  selfShadow: 0
-  bakeToIndirect: 1
-  indirectIntensity: 1
-  lmid: -2
 --- !u!108 &1427597317
 Light:
   m_ObjectHideFlags: 0
@@ -6142,7 +5236,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1531686046}
   - component: {fileID: 1531686048}
-  - component: {fileID: 1531686047}
   m_Layer: 0
   m_Name: Area Light Corridor 5
   m_TagString: Untagged
@@ -6164,30 +5257,6 @@ Transform:
   m_Father: {fileID: 494962178}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 90.00001, y: 90, z: -90.00001}
---- !u!114 &1531686047
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1531686045}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a28e27cacfc7e70479097f0a63c37217, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  UID: 306216714
-  color: {r: 1, g: 1, b: 1, a: 1}
-  intensity: 9
-  texture: {fileID: 0}
-  cutoff: 9.115759
-  samples: 256
-  samples2: 0
-  bitmask: 1
-  selfShadow: 0
-  bakeToIndirect: 1
-  indirectIntensity: 1
-  lmid: -2
 --- !u!108 &1531686048
 Light:
   m_ObjectHideFlags: 0
@@ -6260,7 +5329,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1561615447}
   - component: {fileID: 1561615448}
-  - component: {fileID: 1561615449}
   m_Layer: 0
   m_Name: Area Light Celing Main 3
   m_TagString: Untagged
@@ -6344,30 +5412,6 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
---- !u!114 &1561615449
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1561615446}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a28e27cacfc7e70479097f0a63c37217, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  UID: 1244672555
-  color: {r: 1, g: 1, b: 1, a: 1}
-  intensity: 50
-  texture: {fileID: 0}
-  cutoff: 8.926871
-  samples: 256
-  samples2: 0
-  bitmask: 1
-  selfShadow: 0
-  bakeToIndirect: 1
-  indirectIntensity: 2
-  lmid: -2
 --- !u!1 &1580910409
 GameObject:
   m_ObjectHideFlags: 1
@@ -8846,24 +7890,24 @@ MonoBehaviour:
     cookie: {fileID: 0}
     angle: 30
   implicitGroups:
-  - {fileID: 744857220}
-  - {fileID: 1864291377}
-  - {fileID: 1864291377}
-  - {fileID: 1864291377}
-  - {fileID: 1864291377}
-  - {fileID: 1864291377}
-  - {fileID: 355224659}
-  - {fileID: 1864291377}
-  - {fileID: 1074301007}
-  - {fileID: 1284496499}
-  - {fileID: 1864291377}
-  - {fileID: 1864291377}
-  - {fileID: 1794457693}
-  - {fileID: 1864291377}
-  - {fileID: 1864291377}
-  - {fileID: 1864291377}
-  - {fileID: 1864291377}
-  - {fileID: 1864291377}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   implicitGroupedObjects:
   - {fileID: 0}
   - {fileID: 919132147503239474}
@@ -9128,7 +8172,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1626699948}
-  - component: {fileID: 1626699949}
   m_Layer: 0
   m_Name: Skylight
   m_TagString: Untagged
@@ -9150,30 +8193,6 @@ Transform:
   m_Father: {fileID: 238700015}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1626699949
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1626699947}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 306a56f30ff21b5439963fc745cfe9cc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  texName: sky.dds
-  color: {r: 0.6132076, g: 0.6132076, b: 0.6132076, a: 1}
-  intensity: 1
-  samples: 32
-  hemispherical: 0
-  bitmask: 1
-  bakeToIndirect: 1
-  indirectIntensity: 1
-  tangentSH: 0
-  correctRotation: 0
-  cubemap: {fileID: 0}
-  UID: 693579278
 --- !u!1 &1677165834
 GameObject:
   m_ObjectHideFlags: 0
@@ -9184,7 +8203,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1677165835}
   - component: {fileID: 1677165836}
-  - component: {fileID: 1677165837}
   m_Layer: 0
   m_Name: Area Light Celing Main 5
   m_TagString: Untagged
@@ -9268,30 +8286,6 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
---- !u!114 &1677165837
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1677165834}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a28e27cacfc7e70479097f0a63c37217, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  UID: 1355275565
-  color: {r: 1, g: 1, b: 1, a: 1}
-  intensity: 50
-  texture: {fileID: 0}
-  cutoff: 8.926871
-  samples: 256
-  samples2: 0
-  bitmask: 1
-  selfShadow: 0
-  bakeToIndirect: 1
-  indirectIntensity: 2
-  lmid: -2
 --- !u!1 &1677306911
 GameObject:
   m_ObjectHideFlags: 0
@@ -9431,7 +8425,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1679583268}
   - component: {fileID: 1679583270}
-  - component: {fileID: 1679583269}
   m_Layer: 0
   m_Name: Area Light Corridor 9
   m_TagString: Untagged
@@ -9453,30 +8446,6 @@ Transform:
   m_Father: {fileID: 1197388272}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
---- !u!114 &1679583269
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1679583267}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a28e27cacfc7e70479097f0a63c37217, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  UID: 208397031
-  color: {r: 1, g: 1, b: 1, a: 1}
-  intensity: 22
-  texture: {fileID: 0}
-  cutoff: 9.245742
-  samples: 256
-  samples2: 0
-  bitmask: 1
-  selfShadow: 0
-  bakeToIndirect: 1
-  indirectIntensity: 1
-  lmid: -2
 --- !u!108 &1679583270
 Light:
   m_ObjectHideFlags: 0
@@ -9645,7 +8614,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1699758674}
   - component: {fileID: 1699758676}
-  - component: {fileID: 1699758675}
   m_Layer: 0
   m_Name: Area Light Corridor 7
   m_TagString: Untagged
@@ -9667,30 +8635,6 @@ Transform:
   m_Father: {fileID: 494962178}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 90.00001, y: 90, z: -90.00001}
---- !u!114 &1699758675
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1699758673}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a28e27cacfc7e70479097f0a63c37217, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  UID: -700046518
-  color: {r: 1, g: 1, b: 1, a: 1}
-  intensity: 9
-  texture: {fileID: 0}
-  cutoff: 9.115759
-  samples: 256
-  samples2: 0
-  bitmask: 1
-  selfShadow: 0
-  bakeToIndirect: 1
-  indirectIntensity: 1
-  lmid: -2
 --- !u!108 &1699758676
 Light:
   m_ObjectHideFlags: 0
@@ -9763,7 +8707,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1738187367}
   - component: {fileID: 1738187369}
-  - component: {fileID: 1738187368}
   m_Layer: 0
   m_Name: Area Light Corridor 1
   m_TagString: Untagged
@@ -9785,30 +8728,6 @@ Transform:
   m_Father: {fileID: 494962178}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
---- !u!114 &1738187368
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1738187366}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a28e27cacfc7e70479097f0a63c37217, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  UID: -1512929999
-  color: {r: 1, g: 1, b: 1, a: 1}
-  intensity: 9
-  texture: {fileID: 0}
-  cutoff: 9.0673275
-  samples: 256
-  samples2: 0
-  bitmask: 1
-  selfShadow: 0
-  bakeToIndirect: 1
-  indirectIntensity: 1
-  lmid: -2
 --- !u!108 &1738187369
 Light:
   m_ObjectHideFlags: 0
@@ -9881,7 +8800,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1744040821}
   - component: {fileID: 1744040822}
-  - component: {fileID: 1744040823}
   m_Layer: 0
   m_Name: Area Light Celing Main 4
   m_TagString: Untagged
@@ -9965,30 +8883,6 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
---- !u!114 &1744040823
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1744040820}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a28e27cacfc7e70479097f0a63c37217, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  UID: -2022181171
-  color: {r: 1, g: 1, b: 1, a: 1}
-  intensity: 50
-  texture: {fileID: 0}
-  cutoff: 8.926871
-  samples: 256
-  samples2: 0
-  bitmask: 1
-  selfShadow: 0
-  bakeToIndirect: 1
-  indirectIntensity: 2
-  lmid: -2
 --- !u!1 &1787595299
 GameObject:
   m_ObjectHideFlags: 0
@@ -10071,45 +8965,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1794457693
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec0b4dd729a12d046982652f834580a2, type: 3}
-  m_Name: Main_LMA3
-  m_EditorClassIdentifier: 
-  resolution: 4096
-  bitmask: 1
-  id: 3
-  sortingID: 4
-  isImplicit: 1
-  area: 0
-  totalVertexCount: 0
-  vertexCounter: 0
-  sceneLodLevel: -1
-  sceneName: 
-  containsTerrains: 0
-  probes: 0
-  mode: 1
-  renderMode: 1000
-  renderDirMode: 1000
-  atlasPacker: 1000
-  computeSSS: 0
-  sssSamples: 16
-  sssDensity: 10
-  sssColor: {r: 1, g: 1, b: 1, a: 1}
-  fakeShadowBias: 0
-  transparentSelfShadow: 0
-  flipNormal: 0
-  parentName: 
-  overridePath: 
-  fixPos3D: 0
-  voxelSize: {x: 1, y: 1, z: 1}
 --- !u!850595691 &1855749418
 LightingSettings:
   m_ObjectHideFlags: 0
@@ -10171,45 +9026,6 @@ LightingSettings:
   m_PVRFilteringAtrousPositionSigmaDirect: 0.5
   m_PVRFilteringAtrousPositionSigmaIndirect: 2
   m_PVRFilteringAtrousPositionSigmaAO: 1
---- !u!114 &1864291377
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec0b4dd729a12d046982652f834580a2, type: 3}
-  m_Name: Main_LMA1
-  m_EditorClassIdentifier: 
-  resolution: 4096
-  bitmask: 1
-  id: 1
-  sortingID: 2
-  isImplicit: 1
-  area: 0
-  totalVertexCount: 0
-  vertexCounter: 0
-  sceneLodLevel: -1
-  sceneName: 
-  containsTerrains: 0
-  probes: 0
-  mode: 1
-  renderMode: 1000
-  renderDirMode: 1000
-  atlasPacker: 1000
-  computeSSS: 0
-  sssSamples: 16
-  sssDensity: 10
-  sssColor: {r: 1, g: 1, b: 1, a: 1}
-  fakeShadowBias: 0
-  transparentSelfShadow: 0
-  flipNormal: 0
-  parentName: 
-  overridePath: 
-  fixPos3D: 0
-  voxelSize: {x: 1, y: 1, z: 1}
 --- !u!1 &1871102636
 GameObject:
   m_ObjectHideFlags: 0
@@ -10528,7 +9344,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2061150917}
   - component: {fileID: 2061150919}
-  - component: {fileID: 2061150918}
   m_Layer: 0
   m_Name: Area Light Corridor 10
   m_TagString: Untagged
@@ -10550,30 +9365,6 @@ Transform:
   m_Father: {fileID: 1197388272}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
---- !u!114 &2061150918
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2061150916}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a28e27cacfc7e70479097f0a63c37217, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  UID: -17561432
-  color: {r: 1, g: 1, b: 1, a: 1}
-  intensity: 22
-  texture: {fileID: 0}
-  cutoff: 9.245742
-  samples: 256
-  samples2: 0
-  bitmask: 1
-  selfShadow: 0
-  bakeToIndirect: 1
-  indirectIntensity: 1
-  lmid: -2
 --- !u!108 &2061150919
 Light:
   m_ObjectHideFlags: 0
@@ -10741,7 +9532,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2112796808}
   - component: {fileID: 2112796810}
-  - component: {fileID: 2112796809}
   m_Layer: 0
   m_Name: Area Light Corridor 1
   m_TagString: Untagged
@@ -10763,30 +9553,6 @@ Transform:
   m_Father: {fileID: 1197388272}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
---- !u!114 &2112796809
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2112796807}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a28e27cacfc7e70479097f0a63c37217, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  UID: -1985317267
-  color: {r: 1, g: 1, b: 1, a: 1}
-  intensity: 22
-  texture: {fileID: 0}
-  cutoff: 9.245742
-  samples: 256
-  samples2: 0
-  bitmask: 1
-  selfShadow: 0
-  bakeToIndirect: 1
-  indirectIntensity: 1
-  lmid: -2
 --- !u!108 &2112796810
 Light:
   m_ObjectHideFlags: 0
@@ -10891,7 +9657,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2124169381}
   - component: {fileID: 2124169383}
-  - component: {fileID: 2124169382}
   m_Layer: 0
   m_Name: Area Light Corridor 2
   m_TagString: Untagged
@@ -10913,30 +9678,6 @@ Transform:
   m_Father: {fileID: 1197388272}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
---- !u!114 &2124169382
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2124169380}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a28e27cacfc7e70479097f0a63c37217, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  UID: 228919317
-  color: {r: 1, g: 1, b: 1, a: 1}
-  intensity: 22
-  texture: {fileID: 0}
-  cutoff: 9.245742
-  samples: 256
-  samples2: 0
-  bitmask: 1
-  selfShadow: 0
-  bakeToIndirect: 1
-  indirectIntensity: 1
-  lmid: -2
 --- !u!108 &2124169383
 Light:
   m_ObjectHideFlags: 0
@@ -11009,7 +9750,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2140056599}
   - component: {fileID: 2140056601}
-  - component: {fileID: 2140056600}
   m_Layer: 0
   m_Name: Area Light Corridor 6
   m_TagString: Untagged
@@ -11031,30 +9771,6 @@ Transform:
   m_Father: {fileID: 494962178}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 90.00001, y: 90, z: -90.00001}
---- !u!114 &2140056600
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2140056598}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a28e27cacfc7e70479097f0a63c37217, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  UID: 1146168295
-  color: {r: 1, g: 1, b: 1, a: 1}
-  intensity: 9
-  texture: {fileID: 0}
-  cutoff: 9.115759
-  samples: 256
-  samples2: 0
-  bitmask: 1
-  selfShadow: 0
-  bakeToIndirect: 1
-  indirectIntensity: 1
-  lmid: -2
 --- !u!108 &2140056601
 Light:
   m_ObjectHideFlags: 0
@@ -19751,7 +18467,6 @@ GameObject:
   - component: {fileID: 4654010349001190357}
   - component: {fileID: 5462306735742460025}
   - component: {fileID: 367416352526092491}
-  - component: {fileID: 6674831516698676318}
   m_Layer: 8
   m_Name: AffinityFusionVenousReservoir_Opaque 1
   m_TagString: Untagged
@@ -19759,18 +18474,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &6674831516698676318
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6674831516698676317}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 62357481fde431e49b167706da01a743, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &6725950514361871094
 Transform:
   m_ObjectHideFlags: 0

@@ -18,7 +18,7 @@ MonoBehaviour:
   m_GUID: 83d57153bda662c4e9135382aeb79592
   m_SerializeEntries:
   - m_GUID: 5d4264739e8bc8d4b944ef492c34fb30
-    m_Address: Assets/Scenes/Forest.unity
+    m_Address: Assets/Scenes/Forest/Forest.unity
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 102900000, guid: 5d4264739e8bc8d4b944ef492c34fb30, type: 3}
