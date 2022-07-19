@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
-using UnityEngine.VR;
+//using UnityEngine.VR;
 
 namespace VRStandardAssets.Examples
 { 
@@ -10,7 +10,7 @@ namespace VRStandardAssets.Examples
 
 		void Start ()
 		{
-			UnityEngine.XR.XRSettings.eyeTextureResolutionScale = m_RenderScale;
+			//UnityEngine.XR.XRSettings.eyeTextureResolutionScale = m_RenderScale;
 		}
 	}
 }
