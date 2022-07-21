@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.IO;
 using UnityEditor;
 using UnityEditor.AddressableAssets.Settings;
 using UnityEngine;
@@ -34,5 +35,20 @@ public class AutoBuild : MonoBehaviour
         System.Diagnostics.Process.Start(@"c:\windows\explorer.exe", path);
     }
 
+    public class CreateAssetBundles
+    {
+        [MenuItem("Thinkin/Build AssetBundles")]
+        static void BuildAllAssetBundles()
+        {
+            string basePath = "D:\\Temp\\Assets";
+            string androidPath = basePath + "\\Android";
+            string win64Path = basePath + "\\Windows64";
 
+            if (!Directory.Exists(androidPath)) Directory.CreateDirectory(androidPath);
+            if (!Directory.Exists(win64Path)) Directory.CreateDirectory(win64Path);
+
+            BuildPipeline.BuildAssetBundles(win64Path, BuildAssetBundleOptions.None, BuildTarget.Android);
+            BuildPipeline.BuildAssetBundles(win64Path, BuildAssetBundleOptions.None, BuildTarget.StandaloneWindows64);
+        }
+    }
 }

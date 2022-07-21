@@ -17,24 +17,10 @@ MonoBehaviour:
     m_SerializedData: []
   m_GUID: 31f09fb11be0b8e4394ee526abb15074
   m_SerializeEntries:
-  - m_GUID: 7f2f592fb7827dc43ad456935134ca1b
-    m_Address: Assets/Scenes/USC/Hotel.unity
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    m_MainAsset: {fileID: 102900000, guid: 7f2f592fb7827dc43ad456935134ca1b, type: 3}
-    m_TargetAsset: {fileID: 102900000, guid: 7f2f592fb7827dc43ad456935134ca1b, type: 3}
-  - m_GUID: b3b8fa89083566c48b6111d6270465a7
-    m_Address: Assets/Scenes/USC/Board Room.unity
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    m_MainAsset: {fileID: 102900000, guid: b3b8fa89083566c48b6111d6270465a7, type: 3}
-    m_TargetAsset: {fileID: 102900000, guid: b3b8fa89083566c48b6111d6270465a7, type: 3}
   - m_GUID: 298f5f7a4d075ed4ea5abc18caeb7a89
     m_Address: Assets/Scenes/USC/Theater.unity
     m_ReadOnly: 0
     m_SerializedLabels: []
-    m_MainAsset: {fileID: 102900000, guid: 298f5f7a4d075ed4ea5abc18caeb7a89, type: 3}
-    m_TargetAsset: {fileID: 102900000, guid: 298f5f7a4d075ed4ea5abc18caeb7a89, type: 3}
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: a98b14cec1a6ce5418136327606f1332, type: 2}
   m_SchemaSet:
