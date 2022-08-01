@@ -21,8 +21,6 @@ MonoBehaviour:
     m_Address: Assets/Scenes/Classroom/Classroom.unity
     m_ReadOnly: 0
     m_SerializedLabels: []
-    m_MainAsset: {fileID: 0}
-    m_TargetAsset: {fileID: 0}
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: a98b14cec1a6ce5418136327606f1332, type: 2}
   m_SchemaSet:
