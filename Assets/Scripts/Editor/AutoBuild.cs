@@ -40,13 +40,16 @@ public class AutoBuild : MonoBehaviour
 
         BuildPipeline.BuildAssetBundles(androidPath, BuildAssetBundleOptions.None, BuildTarget.Android);
         BuildPipeline.BuildAssetBundles(win64Path, BuildAssetBundleOptions.None, BuildTarget.StandaloneWindows64);
+
+        OpenUploadWindows();
     }
 
     [MenuItem("Thinkin/Open Upload Windows")]
     public static void OpenUploadWindows()
     {
         System.Diagnostics.Process.Start(@"https://console.cloud.google.com/storage/browser/matriculate-assets");
-        string path = Application.dataPath.Replace('/', '\\') + @"\..\ServerData";
+        //string path = Application.dataPath.Replace('/', '\\') + @"\..\ServerData";
+        string path = "D:\\Temp\\Assets";
         System.Diagnostics.Process.Start(@"c:\windows\explorer.exe", path);
     }
 
