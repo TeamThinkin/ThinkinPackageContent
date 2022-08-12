@@ -13,7 +13,7 @@ public class AutoBuild : MonoBehaviour
 
 
     [MenuItem("Thinkin/Build AssetBundles")]
-    static void BuildAllAssetBundles()
+    public static void BuildAllAssetBundles()
     {
         if (!Directory.Exists(AssetBundleAndroidPath)) Directory.CreateDirectory(AssetBundleAndroidPath);
         if (!Directory.Exists(AssetWin64Path)) Directory.CreateDirectory(AssetWin64Path);
@@ -75,11 +75,6 @@ public class BundlesWindow : EditorWindow
         window.Show();
     }
 
-    public BundlesWindow()
-    {
-        refreshBundleNames();
-    }
-
     private void refreshBundleNames()
     {
         Debug.Log("Refreshing bundle names");
@@ -88,10 +83,21 @@ public class BundlesWindow : EditorWindow
 
     private void OnGUI()
     {
+        if (bundleNames == null) refreshBundleNames();
+
+        GUILayout.Label("Auto Build Options", EditorStyles.boldLabel);
+
+        if (GUILayout.Button("Build All"))
+        {
+            AutoBuild.BuildAllAssetBundles();
+        }
+        if (GUILayout.Button("Open Upload Windows"))
+        {
+            AutoBuild.OpenUploadWindows();
+        }
+        GUILayout.Space(10);
         GUILayout.Label("Project Asset Bundles", EditorStyles.boldLabel);
 
-        if (bundleNames == null) refreshBundleNames();
-        
         foreach (var name in bundleNames)
         {
             if (GUILayout.Button(name))
